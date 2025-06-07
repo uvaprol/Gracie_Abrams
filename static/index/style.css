@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  padding: 0 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px #000 solid;
+}
+
+header {
+  background-size: cover;
+}
+header section {
+  height: 97px;
+  position: relative;
+  gap: 180px;
+}
+header section h1 {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+header section div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 100px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: #D9D9D9;
+}
+
+main section {
+  padding: 100px 50px;
+  flex-direction: column;
+  gap: 100px;
+}
+main section div {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+main section:nth-child(2) h3 {
+  width: 100%;
+  text-align: left;
+}
+main section:nth-child(2) div {
+  gap: 130px;
+}
+main section:nth-child(2) button {
+  width: 65px;
+  height: 65px;
+  border: #000 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  transform: rotate(45deg);
+}
+main section:nth-child(2) button span {
+  position: relative;
+  right: 5px;
+  top: 5px;
+  border: #000 5px solid;
+  border-bottom: none;
+  border-left: none;
+  width: 25px;
+  height: 25px;
+}
+main section:nth-child(2) .merch {
+  flex-direction: column;
+  gap: 0;
+}
+main section:nth-child(2) .merch div {
+  margin-bottom: 75px;
+}
+main section:nth-child(2) .merch p {
+  width: calc(100% - 22px);
+  margin-left: 22px;
+}
+main section:nth-child(2) .merch p:last-child {
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

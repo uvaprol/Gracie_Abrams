@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+section{
+    padding: 0 50px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px #000 solid;
+}
+
+
+header{
+    // height: 100vh; // dev
+    // background-image: url(../index/g9.png); // dev
+    background-size: cover;
+    // color: #fff; // dev
+    // img{
+    //     padding: 30px 50px 0;
+    //     // background-color: aqua;
+    //     width: calc(100% - 100px);
+    //     position: absolute;
+    // }
+    section{
+        // border-color: #fff; // dev
+        height: 97px;
+        // display: flex;
+        position: relative;
+        // justify-content: center;
+        // align-items: center;
+        // border-bottom: 1px #000 solid;
+        gap: 180px;
+        h1{
+            width: 100%;
+            position: absolute;
+            text-align: center;
+        }
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            gap: 100px;
+        }
+    }
+
+}
+
+.card{
+   width:  400px;
+   height: 400px;
+   background-color: #D9D9D9; 
+}
+
+main{
+    section{
+        padding: 100px 50px;
+        flex-direction: column;
+        gap: 100px;
+        div{
+            display: flex;
+            gap: 35px;
+            align-items: center;
+        }
+    }
+    section:nth-child(2){
+        h3{
+            width: 100%;
+            text-align: left;
+        }
+        div{
+            gap: 130px;
+        }
+        button{
+            width: 65px;
+            height: 65px;
+            border: #000 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            transform: rotate(45deg);
+            span{
+                position: relative;
+                right: 5px;
+                top:   5px;
+                border: #000 5px solid;
+                border-bottom: none;
+                border-left: none;
+                width:  25px;
+                height: 25px;
+            }
+        }
+        .merch{
+            flex-direction: column;
+            gap: 0;
+            div{
+                margin-bottom: 75px;
+            }
+            p{
+                width: calc(100% - 22px);
+                margin-left: 22px;
+            }
+            p:last-child{
+                margin-top: 10px;
+            }
+        }
+    }
+}
