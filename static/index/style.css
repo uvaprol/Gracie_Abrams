@@ -20,9 +20,13 @@ section {
 }
 
 header {
+  height: 100vh;
+  background-image: url(../index/g9.png);
   background-size: cover;
+  color: #fff;
 }
 header section {
+  border-color: #fff;
   height: 97px;
   position: relative;
   gap: 180px;
