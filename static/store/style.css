@@ -1,0 +1,17 @@
+header {
+  background-image: none;
+  height: auto;
+}
+header section {
+  color: black;
+  border-color: black;
+}
+
+main section {
+  border: none;
+  margin-bottom: 250px;
+}
+
+.cardline {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
