@@ -147,7 +147,7 @@ main #tour #more_dates_btn {
 .card {
   flex-direction: column;
   margin-top: 40px;
-  max-width: 25%;
+  max-width: 400px;
 }
 .card p {
   display: flex;
